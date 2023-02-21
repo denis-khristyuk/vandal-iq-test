@@ -1,0 +1,11 @@
+.background {
+  margin: 30px 68px 0 68px;
+  background: white;
+  width: 95vw;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+
+  @media (max-width: 1200px) {
+    margin: 15px;
+  }
+}

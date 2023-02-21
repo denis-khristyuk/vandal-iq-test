@@ -1,0 +1,64 @@
+.anagrams {
+  &_task {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 71px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 81px 0 94px 0;
+    display: flex;
+    gap: 45px;
+
+
+
+    @media (max-width: 1200px) {
+      margin: 40px 0 50px 0;
+    }
+
+    &_image {
+      width: 250px;
+    }
+  }
+
+  &_tip {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 63px;
+
+    @media (max-width: 1200px) {
+      margin: 0 32px 46px 32px;
+    }
+  }
+}
+
+.condition {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 20px 30px 30px;
+
+  @media (max-width: 1200px) {
+    font-size: 18px;
+  }
+}
+
+.letter_inputs {
+  display: flex;
+  gap: 50px;
+}
+
+.answer_input {
+  font-family: 'Inter', sans-serif;
+  width: 112px;
+  height: 31px;
+  border: 0.5px solid #999999;
+  box-shadow: 2px 2px 13px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  margin-bottom: 34px;
+}

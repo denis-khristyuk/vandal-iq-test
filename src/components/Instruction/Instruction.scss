@@ -1,0 +1,71 @@
+.warning {
+  margin: 0 60px 110px 60px;
+  text-align: center;
+  font-weight: 200;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FF6F6F;
+
+  @media (max-width: 1200px) {
+    margin: 0 12px 50px 12px;
+  }
+}
+
+.content {
+  padding: 26px 35px 75px 35px;
+
+  &_title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 48px;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.25);
+
+    @media (max-width: 1200px) {
+      font-size: 32px;
+    }
+  }
+
+  &_instruction {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.25);
+    padding-top: 16px;
+
+    @media (max-width: 1200px) {
+      font-size: 28px;
+    }
+  }
+
+  &_box {
+    display: flex;
+  }
+
+  &_main {
+    line-height: 136.52%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 35px 0;
+
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
+  }
+
+  &_note {
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+    }
+  }
+}
